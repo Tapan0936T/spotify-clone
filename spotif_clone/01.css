@@ -1,0 +1,369 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    background-color: black;
+    overflow: hidden;
+    color: aliceblue;
+}
+
+.main{
+    display: flex;
+    height: 100vh;
+}
+
+.sideview{
+    background-color: rgb(0, 0, 0);
+    width: 22rem;
+    border-radius: 1rem;
+
+}
+.main_contant{
+    margin: 1rem;
+    background-color:gray;
+    /* width: 100%; */
+    flex: 1;
+    scrollbar-width: none;
+    border-radius: 1rem;
+    overflow: auto;
+    padding: 0.4rem 1.5rem 0 1.5rem;
+}
+.music-player{
+    position: absolute;
+    background-color: rgb(54, 51, 51);
+    width: 100%;
+    height: 50px;
+    bottom: 0;
+    border-radius: 1rem;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.up{
+    background-color:gray;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    margin: 10px;
+    padding: 0.5rem 0.75rem;
+}
+.nav_option{
+    line-height: 2.5rem;
+    opacity: 0.7;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap:1rem;
+}
+.nav_option:hover{
+    opacity: 1;
+}
+.nav_option i{
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+.nav_option a{
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+.library{
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border-radius: 1rem;
+    margin: 0.7rem;
+    padding: 0.5rem 0.5rem
+}
+
+.option {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.lib_option img{
+    height: 1.6rem;
+    width: 1.6rem;
+}
+
+.icon{
+    font-size: 1rem;
+    display: flex;
+}
+
+.icon i{
+    opacity: 0.7;
+    margin-right: 1rem;
+}
+
+.icon i:hover{
+    opacity: 1;
+}
+
+.lib-box{
+    height: 10rem;
+    background-color: rgba(24, 22, 22, 0.625);
+    border-radius: 1rem;
+    /* justify-content: center;
+    align-content: center;
+    text-align: center; */
+    margin: 0.25rem 0 1.5rem 0;
+    padding: 0.5rem 0.75rem;
+}
+.box11{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.box1{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.budge1{
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 4rem;
+    padding: 0.2rem 1rem;
+    font-weight: 700;
+    margin-top: 1rem; 
+    height: 2rem;
+}
+.box2{
+    font-weight: 500;
+    font-size:1rem;
+}
+.budge{
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 4rem;
+    padding: 0.2rem 1rem;
+    font-weight: 700;
+    /* margin-top: 0.001rem; */
+    height: 2rem;
+}
+
+.adj{
+    height: 4rem;
+    width: 100%;
+    top: 0px;
+}
+.navt{
+    position: fixed;
+    top: 0.999rem;
+    background-color: gray;
+    width: 66rem;
+    padding: 0 1.25rem 0 1.25rem;
+}
+
+.fix{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: gray; */
+}
+.b_f img {
+    width: 30px; /* Adjust size as needed */
+    margin-right: 10px;
+}
+.explor{
+    margin-left: 80px;
+}
+.budgee{
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 4rem;
+    padding: 0.2rem 1rem;
+    font-weight: 700;
+    /* margin-top: 0.001rem; */
+    height: 2rem;
+    color: azure;
+    background-color: black;
+}
+.budgee span{
+    padding: 0.5rem;
+}
+
+@media(max-width :1000px){
+    .hide{
+        display: none;
+    }
+}
+
+.cards{
+    background-color: rgba(0, 0, 0, 0.457);
+    width: 250px;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-left: 10px ;
+    margin-top: 1rem;
+}
+.card-container{
+    display: flex;
+}
+
+.card-img{
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.card-tital{
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+.card-info{
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+.tranding{
+    width: 100%;
+    display: flex;
+    margin-right: 20px;
+    flex-wrap: wrap;
+}
+
+.footer{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.line{
+    width: 95%;
+    height: 30%;
+    border-top: 1px solid white;
+    opacity: 0.4;
+}
+
+.music-player{
+    display: flex;
+    /* background-color: rgba(166, 45, 45, 0.372); */
+    opacity:0.7 ;
+}
+
+.song{
+    background-color: rgb(0, 0, 0);
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+}
+
+.song img{
+    height: 2.5rem;
+    width: 2.5rem;
+    margin: 0.4rem 1rem 1rem 1rem;
+}
+
+.song-name{
+    margin: 0.2rem 0 0 ;
+}
+#oooo{
+    font-size: 0.7rem;
+}
+
+.song-icon img{
+    margin: 0.7rem 0 0 1rem;
+    height: 2rem;
+    width: 2rem;
+    /* background-color: blue; */
+    opacity: 0.4;
+}
+.song-icon img :hover{
+    opacity: 1;
+}
+
+
+
+
+
+.player{
+    /* background-color: rgb(4, 85, 58); */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 0.2rem 2rem;
+}
+
+.player-contorl-icon{
+    height: 1rem;
+    margin: 0.2rem;
+    opacity: 0.7;
+    justify-content: center;
+}
+
+.big{
+    opacity:1;
+    font-size:2rem;
+}
+
+.player-contorl-icon:hover{
+    opacity: 1;
+}
+
+.control{
+    /* background-color: burlywood; */
+    width: 25%;
+}
+
+.prosess-bar{
+    width: 70%;
+    appearance: none;
+    background-color: transparent;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.prosess-bar::-webkit-slider-runnable-track{
+    background-color: azure;
+    border-radius: 100px;
+    height : 0.2rem;
+}
+
+
+.prosess-bar::-webkit-slider-thumb{
+    appearance: none;
+    height: 1rem;
+    width: 1rem;
+    background-color: green;
+    margin-top: -0.3rem;
+    border-radius:  50%;
+}
+
+.control{
+    display: flex;
+    flex-direction: row;
+    margin: 0.7rem 0.2rem 0.2rem 1rem;
+    gap: 0.3rem; 
+}
+.control i{
+    opacity: 0.7;
+}
+
+.control i:hover{
+    opacity: 1;
+}
+
+.volume-bar::-webkit-slider-runnable-track{
+    background-color: azure;
+    border-radius: 100px;
+    height : 0.2rem;
+}
+
+
+.volume-bar::-webkit-slider-thumb{
+    appearance: none;
+    height: 1rem;
+    width: 1rem;
+    background-color: rgb(32, 128, 32);
+    margin-top: -0.3rem;
+    border-radius:  50%;
+}
