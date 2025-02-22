@@ -19,7 +19,7 @@ body{
 }
 .main_contant{
     margin: 1rem;
-    background-color:gray;
+    background-color:rgb(88, 81, 81);
     /* width: 100%; */
     flex: 1;
     scrollbar-width: none;
@@ -41,7 +41,7 @@ a{
     color: aliceblue;
 }
 .up{
-    background-color:gray;
+    background-color:rgb(123, 109, 109);
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
@@ -155,7 +155,7 @@ a{
 .navt{
     position: fixed;
     top: 0.999rem;
-    background-color: gray;
+    background-color: rgb(99, 89, 89);
     width: 66rem;
     padding: 0 1.25rem 0 1.25rem;
 }
@@ -196,7 +196,7 @@ a{
 }
 
 .cards{
-    background-color: rgba(0, 0, 0, 0.457);
+    background-color: rgba(0, 0, 0, 0.303);
     width: 250px;
     border-radius: 1rem;
     padding: 1rem;
